@@ -3,6 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineCancel } from "react-icons/md";
 import { MdOutlineDarkMode } from "react-icons/md";
 import { MdOutlineLightMode } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -56,15 +57,13 @@ const Navbar = () => {
             menu ? "" : "translate-x-[200px]"
           } transition-all duration-300 right-0 w-[200px] bg-white shadow-2xl p-2 h-full flex flex-col space-y-1 dark:bg-black/60 dark:text-white`}
         >
-          <p className="px-2 hover:scale-105 active:scale-95 cursor-pointer py-1 hover:bg-black dark:hover:bg-slate-800/60 hover:text-white rounded-sm transition-all duration-300">Dashboard</p>
+          <Link to="/"><p className="px-2 hover:scale-105 active:scale-95 cursor-pointer py-1 hover:bg-black dark:hover:bg-slate-800/60 hover:text-white rounded-sm transition-all duration-300">Dashboard</p></Link>
           <hr />
-          <p className="px-2 hover:scale-105 active:scale-95 cursor-pointer py-1 hover:bg-black dark:hover:bg-slate-800/60 hover:text-white rounded-sm transition-all duration-300">Dashboard</p>
+          <Link to="/transaction"><p className="px-2 hover:scale-105 active:scale-95 cursor-pointer py-1 hover:bg-black dark:hover:bg-slate-800/60 hover:text-white rounded-sm transition-all duration-300">Transaction</p></Link>
           <hr />
-          <p className="px-2 hover:scale-105 active:scale-95 cursor-pointer py-1 hover:bg-black dark:hover:bg-slate-800/60 hover:text-white rounded-sm transition-all duration-300">Dashboard</p>
+          <Link to="/balance"><p className="px-2 hover:scale-105 active:scale-95 cursor-pointer py-1 hover:bg-black dark:hover:bg-slate-800/60 hover:text-white rounded-sm transition-all duration-300">Balance & History</p></Link>
           <hr />
-          <p className="px-2 hover:scale-105 active:scale-95 cursor-pointer py-1 hover:bg-black dark:hover:bg-slate-800/60  hover:text-white rounded-sm transition-all duration-300">Dashboard</p>
-          <hr />
-          <p className="px-2 hover:scale-105 active:scale-95 cursor-pointer py-1 hover:bg-black dark:hover:bg-slate-800/60  hover:text-white rounded-sm transition-all duration-300">Dashboard</p>
+          <Link to="/settings"><p className="px-2 hover:scale-105 active:scale-95 cursor-pointer py-1 hover:bg-black dark:hover:bg-slate-800/60  hover:text-white rounded-sm transition-all duration-300">Settings</p></Link>
           <hr />
         </div>
       </div>
