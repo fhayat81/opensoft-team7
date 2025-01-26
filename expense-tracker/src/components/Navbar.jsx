@@ -58,13 +58,11 @@ const Navbar = () => {
         >
           <p className="px-2 hover:scale-105 active:scale-95 cursor-pointer py-1 hover:bg-black dark:hover:bg-slate-800/60 hover:text-white rounded-sm transition-all duration-300">Dashboard</p>
           <hr />
-          <p className="px-2 hover:scale-105 active:scale-95 cursor-pointer py-1 hover:bg-black dark:hover:bg-slate-800/60 hover:text-white rounded-sm transition-all duration-300">Dashboard</p>
+          <p className="px-2 hover:scale-105 active:scale-95 cursor-pointer py-1 hover:bg-black dark:hover:bg-slate-800/60 hover:text-white rounded-sm transition-all duration-300">Transaction</p>
           <hr />
-          <p className="px-2 hover:scale-105 active:scale-95 cursor-pointer py-1 hover:bg-black dark:hover:bg-slate-800/60 hover:text-white rounded-sm transition-all duration-300">Dashboard</p>
+          <p className="px-2 hover:scale-105 active:scale-95 cursor-pointer py-1 hover:bg-black dark:hover:bg-slate-800/60 hover:text-white rounded-sm transition-all duration-300">Balance & History</p>
           <hr />
-          <p className="px-2 hover:scale-105 active:scale-95 cursor-pointer py-1 hover:bg-black dark:hover:bg-slate-800/60  hover:text-white rounded-sm transition-all duration-300">Dashboard</p>
-          <hr />
-          <p className="px-2 hover:scale-105 active:scale-95 cursor-pointer py-1 hover:bg-black dark:hover:bg-slate-800/60  hover:text-white rounded-sm transition-all duration-300">Dashboard</p>
+          <p className="px-2 hover:scale-105 active:scale-95 cursor-pointer py-1 hover:bg-black dark:hover:bg-slate-800/60  hover:text-white rounded-sm transition-all duration-300">Settings</p>
           <hr />
         </div>
       </div>
